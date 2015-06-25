@@ -4,6 +4,7 @@
     <string name="action_settings">Settings</string>
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
     <!--string name="weather_query">http://api.openweathermap.org/data/2.5/forecast/daily?q=Seoul&mode=json&units=metric&cnt=7</string-->
 </resources>
 
