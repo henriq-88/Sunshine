@@ -40,5 +40,5 @@ public class TestWeatherContract extends AndroidTestCase {
 //        assertEquals("Error: Weather location Uri doesn't match our expected result",
 //                locationUri.toString(),
 //                "content://com.example.android.sunshine.app/weather/%2FNorth%20Pole");
-r
+
 }
