@@ -106,8 +106,8 @@ public class DetailActivity extends ActionBarActivity {
         }
 
         @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            Log.d(LOG_TAG, "onCreateView");
             Intent intent = getActivity().getIntent();
             View rootView = inflater.inflate(R.layout.fragment_detail, container, false);
             if (intent != null && intent.hasExtra(Intent.EXTRA_TEXT)) {
